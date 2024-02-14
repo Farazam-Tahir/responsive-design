@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            width: 20%;
+            float: left;
+            background-color: aquamarine;
+        }
+        .two{
+            width: 50%;
+            float: left;
+            background-color: blueviolet;
+        }
+        .three{
+            width: 27%;
+            float: left;
+            background-color: brown;
+        }
+
+        @media screen and (max-width: 960px){
+            .one, .two, .three{
+                width: 50%;
+            }
+            
+        }
+        @media screen and (max-width: 600px) {
+            .one, .two, .three{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="two">
+        <p>Pariatur dolore ad aliquid voluptatibus!</p>
+    </div>
+    <div class="three">
+        <p>Eveniet quia a amet itaque.</p>
+    </div>
+</body>
+</html>
